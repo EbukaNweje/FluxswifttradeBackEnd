@@ -4,6 +4,7 @@ const UserSchema = new mongoose.Schema({
   
   fullName: {
     type: String,
+    required: true,
   },
 
   userName: {
@@ -30,7 +31,7 @@ const UserSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  
+
   country: {
     type: String,
     required: true,
